@@ -67,10 +67,13 @@ img {
   /*outline: 2px solid red;*/
 }
 
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header-container{
   display: flex;
-  align-items: center;
-  border-bottom: 1px solid #808080;
+  align-items: center;  
 }
 
 .navigation{
@@ -385,6 +388,10 @@ img {
   color: var(--accent-color);
 }
 
+.footer-contacts-items:not(:last-child){
+  margin-bottom: 9px;
+}
+
 .footer-contacts-item {  
   font-style: normal;
   font-weight: 400;  
@@ -392,6 +399,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
 }
+
+
 
 .footer-contacts-item:hover,
 .footer-contacts-item:focus{
