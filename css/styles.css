@@ -318,8 +318,7 @@ img {
   height: 44px;
   color: #AFB1B8;
   background-color: #fff;
-  border-radius: 50%;
-  border: 1px solid greenyellow;  
+  border-radius: 50%;  
 }
 
 .socials-team-item-link:hover,
@@ -388,6 +387,42 @@ img {
   font-size: 16px;
   line-height: 1.87;  
   color: var(--main-color-dark-second);
+}
+
+.clients-tite{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;  
+  margin-bottom: 50px;
+}
+
+.clients-items-list{
+  display: flex;  
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item-link{
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color: #AFB1B8;
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus{
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+.clients-icon{
+  fill: currentColor;
 }
 
 .footer {  
