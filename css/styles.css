@@ -164,9 +164,18 @@ img {
   margin-right: 10px;
 }
 
-.hero {
-  background-color: var(--footer-hero-color);
+.hero {  
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--footer-hero-color); 
+  
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
+  
+  background-repeat: no-repeat;
   padding: 200px 0;  
+  background-size: cover ;
+  background-position: center;  
 }
 
 .main-title {
