@@ -301,6 +301,35 @@ img {
   line-height: 1.19;
   text-align: center;  
   color: var(--main-color-dark-second);  
+  margin-bottom: 16px;
+}
+
+.socials-team {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.socials-team-item-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #AFB1B8;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid greenyellow;  
+}
+
+.socials-team-item-link:hover,
+.socials-team-item-link:focus{
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
+.socials-team-icon{
+  fill: currentColor;
 }
 
 .filter-list{
